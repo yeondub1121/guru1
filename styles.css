@@ -1,0 +1,47 @@
+body {
+    background-color: #8dd9f0;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    background-color: #d8f5fc;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+  }
+  hr {
+    background:rgb(255, 255, 255);
+    height:1px;
+    border:0;
+}
+  form {
+    text-align: center;
+  }
+  input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  input[type="button"] {
+    background-color: #5e6366;
+    color: #fff;
+    border: none;
+    padding: 10px 80px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  margin-left: 149px;
+  }
+  
+  .error-message {
+    color: red; /* 기본적으로 빨간색으로 설정 */
+}
+
+.success-message {
+    color: green; /* 성공 메시지는 초록색으로 설정 */
+}
